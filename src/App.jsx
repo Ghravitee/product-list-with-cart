@@ -109,7 +109,7 @@ function App() {
                     <div className="absolute w-[50%] sm:w-[60%] lg:w-[70%] -bottom-4 left-0 right-0 mx-auto bg-Red flex px-4 py-2 justify-center items-center gap-4 rounded-full">
                       <button
                         onClick={() => handleRemoveFromCart(item)}
-                        className="bg-Red w-5 h-5 border group border-white rounded-full flex justify-center items-center mr-auto hover:bg-white"
+                        className="bg-Red w-5 h-5 border group border-white rounded-full flex justify-center items-center mr-auto "
                       >
                         <svg
                           className="hover:cursor-pointer"
@@ -126,7 +126,7 @@ function App() {
                       </p>
                       <button
                         onClick={() => handleAddToCart(item)}
-                        className="bg-Red w-5 h-5 border border-white rounded-full flex justify-center items-center ml-auto hover:bg-white"
+                        className="bg-Red w-5 h-5 border border-white rounded-full flex justify-center items-center ml-auto"
                       >
                         <img src={increment} alt="Increment quantity" />
                       </button>
